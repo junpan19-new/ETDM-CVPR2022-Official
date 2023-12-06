@@ -212,7 +212,7 @@ def train():
             print("===> loss_left_0: {:.4f} || Timer: {:.4f} sec.".format(loss_left_0.item(), (t1 - t0)))
 
             print("===> loss_left_1: {:.4f} || Timer: {:.4f} sec.".format(loss_left_1.item(), (t1 - t0)))
-            break
+            # break
 
         scheduler_1.step()
         scheduler_2.step()
